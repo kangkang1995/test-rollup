@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "jsx": "preserve",
+    "exactOptionalPropertyTypes": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "composite": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true,
+    "importsNotUsedAsValues": "error",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowUmdGlobalAccess": true,
+    "incremental": true,
+    "removeComments": true,
+    "newLine": "lf",
+    "declarationDir": "./dist/types",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ]
+  },
+  "include": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/*.spec.ts",
+    "__tests__"
+  ]
+}
